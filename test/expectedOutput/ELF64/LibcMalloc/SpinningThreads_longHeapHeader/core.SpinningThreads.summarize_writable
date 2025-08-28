@@ -1,5 +1,5 @@
-2 ranges take 0x1000000 bytes for use: used pthread stack
 2 ranges take 0x1000000 bytes for use: cached pthread stack
+2 ranges take 0x1000000 bytes for use: used pthread stack
 4 ranges take 0x84000 bytes for use: libc malloc heap
 1 ranges take 0x21000 bytes for use: libc malloc main arena pages
 1 ranges take 0x21000 bytes for use: main stack
