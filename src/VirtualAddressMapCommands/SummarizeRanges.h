@@ -4,6 +4,7 @@
 
 #pragma once
 #include <algorithm>
+#include <cstring>
 #include <map>
 #include <vector>
 #include "../Commands/Runner.h"
@@ -54,7 +55,7 @@ class SummarizeRanges : public Commands::Subcommand {
       // in case of matching # bytes and #ranges, sort by increasing lexical
       // order of usage category.
 
-      return left.first < right.first;
+      return std::strcmp(left.first, right.first) < 0;
     }
   };
 
